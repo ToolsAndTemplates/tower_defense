@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="towerGradApple" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="180" height="180" fill="url(#bgGrad)" rx="40"/>
+
+  <!-- Castle/Tower -->
+  <!-- Base -->
+  <rect x="45" y="99" width="90" height="54" fill="url(#towerGradApple)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Tower body -->
+  <rect x="63" y="63" width="54" height="45" fill="url(#towerGradApple)" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Battlements -->
+  <rect x="63" y="54" width="11" height="14" fill="#4A90E2"/>
+  <rect x="84.5" y="54" width="11" height="14" fill="#4A90E2"/>
+  <rect x="106" y="54" width="11" height="14" fill="#4A90E2"/>
+
+  <!-- Door -->
+  <rect x="79" y="122" width="22" height="27" rx="11" fill="#334155"/>
+
+  <!-- Windows -->
+  <rect x="72" y="77" width="13" height="16" fill="#fbbf24"/>
+  <rect x="95" y="77" width="13" height="16" fill="#fbbf24"/>
+
+  <!-- Target/Crosshair accent -->
+  <circle cx="135" cy="45" r="18" fill="none" stroke="#ef4444" stroke-width="3"/>
+  <line x1="135" y1="32" x2="135" y2="58" stroke="#ef4444" stroke-width="3"/>
+  <line x1="122" y1="45" x2="148" y2="45" stroke="#ef4444" stroke-width="3"/>
+</svg>
